@@ -1,0 +1,22 @@
+:root{--ink:#17211f;--muted:#66716e;--line:#dfe5e2;--paper:#fbfcfb;--panel:#f1f5f2;--accent:#2f6f5d;--accent-dark:#214f43;--white:#fff;--max:1120px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);line-height:1.7}a{color:inherit}
+.site-header{border-bottom:1px solid var(--line);background:rgba(251,252,251,.96)}.nav{max-width:var(--max);margin:auto;padding:22px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:.08em;font-size:18px}.brand span{color:var(--accent)}
+.nav-links{display:flex;gap:28px;font-family:Arial,Helvetica,sans-serif;font-size:14px}.nav-links a{text-decoration:none;color:var(--muted)}.nav-links a:hover{color:var(--accent)}
+.hero{max-width:var(--max);margin:auto;padding:90px 28px 82px;display:grid;grid-template-columns:1.25fr .75fr;gap:70px;align-items:center}
+.eyebrow{font-family:Arial,Helvetica,sans-serif;text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:var(--accent);font-weight:700}
+h1{font-size:clamp(46px,7vw,78px);line-height:1.02;font-weight:500;margin:18px 0 24px;letter-spacing:-.035em}h2{font-size:clamp(30px,4vw,44px);line-height:1.15;font-weight:500;margin:0 0 22px}h3{font-size:21px;font-weight:600;margin:0 0 10px}
+.lead{font-size:21px;color:#3e4946;max-width:700px}.button{display:inline-block;margin-top:28px;padding:13px 22px;background:var(--accent);color:var(--white);text-decoration:none;border-radius:3px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;letter-spacing:.02em}.button:hover{background:var(--accent-dark)}
+.book-card{background:var(--ink);color:var(--white);min-height:470px;padding:42px;display:flex;flex-direction:column;justify-content:flex-end;box-shadow:0 18px 45px rgba(23,33,31,.12)}.book-series,.book-sub{font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:.18em;text-transform:uppercase;opacity:.72}.book-title{font-size:44px;line-height:1.05;margin:18px 0 10px}
+.section{border-top:1px solid var(--line);padding:78px 28px}.section-inner{max-width:var(--max);margin:auto}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:70px}.muted{color:var(--muted)}
+.quote{border-left:3px solid var(--accent);padding-left:24px;font-size:25px;line-height:1.45}.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:34px}.pillar{background:var(--panel);padding:28px;border:1px solid var(--line)}
+.page-hero{max-width:var(--max);margin:auto;padding:72px 28px 55px}.page-hero h1{font-size:clamp(44px,6vw,68px);max-width:800px}
+.bio-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:65px;align-items:start}.photo-box{aspect-ratio:4/5;background:var(--panel);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;padding:30px;text-align:center;color:var(--muted);font-family:Arial,Helvetica,sans-serif;font-size:13px}
+.contact{background:var(--ink);color:var(--white)}.contact .muted{color:#c8d0cd}.contact a{color:var(--white)}
+.site-footer{background:var(--ink);color:#aeb8b4;border-top:1px solid rgba(255,255,255,.1);padding:28px;font-family:Arial,Helvetica,sans-serif;font-size:12px}.footer-inner{max-width:var(--max);margin:auto;display:flex;justify-content:space-between;gap:20px}
+@media(max-width:800px){.nav{padding:18px 20px}.nav-links{gap:16px}.hero{grid-template-columns:1fr;padding:62px 20px}.book-card{min-height:390px}.section{padding:58px 20px}.two-col,.bio-grid{grid-template-columns:1fr;gap:38px}.pillars{grid-template-columns:1fr}.page-hero{padding:55px 20px 38px}.footer-inner{flex-direction:column}}
+
+.site-logo{width:58px;height:58px;object-fit:contain;display:block}.brand-wrap{display:flex;align-items:center;gap:12px;text-decoration:none}.brand-name{font-family:Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:.06em;font-size:17px}.brand-name span{color:var(--accent)}
+.hero-cover{display:flex;align-items:center;justify-content:center;background:transparent;box-shadow:none;padding:10px;min-height:470px}.hero-cover img{width:min(100%,360px);height:auto;display:block;box-shadow:0 18px 38px rgba(23,33,31,.18)}
+.about-photo{width:100%;height:auto;display:block;object-fit:cover}.photo-frame{background:var(--panel);border:1px solid var(--line);padding:0}
+@media(max-width:800px){.site-logo{width:50px;height:50px}.brand-name{font-size:15px}.hero-cover{min-height:390px}.hero-cover img{width:min(100%,300px)}}
